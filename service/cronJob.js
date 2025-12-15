@@ -3,7 +3,7 @@ const axios = require("axios");
 const fs = require("fs");
 const path = require("path");
 
-const BASE_URL = "http://localhost:9090";
+const BASE_URL = "http://localhost:9002";
 const FrontenURl = "https://meglertip.vercel.app";
 async function generateSitemap() {
   try {
